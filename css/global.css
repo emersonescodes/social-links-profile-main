@@ -1,0 +1,16 @@
+:root {
+    --primary-green: rgb(197, 248, 42);
+    --white: #ffffff;
+    --grey: #333333;
+    --dark-grey: #1f1f1f;
+    --black: #141414;
+
+    --font:Inter, sans-serif;
+    --text: 14px/125% var(--font);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+}
