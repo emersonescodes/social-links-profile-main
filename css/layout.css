@@ -1,0 +1,69 @@
+#social-tree {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.social-tree__container {
+    background: var(--dark-grey);
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+}
+
+#social-tree__profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.social-tree__avatar {
+    border-radius: 50%;
+    width: 120px;
+}
+
+.social-tree__data {
+    text-align: center;
+    & h1 {
+        margin-bottom: 5px;
+    }
+}
+
+.social-tree__name {
+    color: var(--white);
+}
+
+.social-tree__location {
+    color: var(--primary-green);
+}
+
+.social-tree__bio {
+    color: var(--white);
+    text-align: center;
+}
+
+.social-tree__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-tree__item {
+    display: flex;
+}
+
+.social-tree__link {
+    background: var(--grey);
+    color: var(--white);
+    padding-block: 15px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+}
